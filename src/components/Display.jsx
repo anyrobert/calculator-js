@@ -1,7 +1,5 @@
-import React from 'react'
-import './Display.css'
+import "./Display.css";
 
-export default props =>
-<div className="display">
-{props.value}
-</div>
+import React from "react";
+
+export default (props) => <div className="display">{props.value}</div>;
