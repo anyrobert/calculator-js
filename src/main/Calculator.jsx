@@ -53,6 +53,8 @@ export default class Calculator extends Component {
           case "-":
             values[0] = values[0] - values[1];
             break;
+          default:
+            break;
         }
         // eval(`${values[0]} ${currentOperation} ${values[1]}`)
       } catch (e) {
